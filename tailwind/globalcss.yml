@@ -2,7 +2,7 @@ path:
   - app
   - _layout.tsx
 data:
-    find: |
+  - find: |
       /^(import.*?'expo-router';)$/m
     replace: |
       $1
